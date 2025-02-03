@@ -1,3 +1,5 @@
+import unreal
+
 def set_static_mesh_for_blueprint(bp, mesh):
 	bp_asset = unreal.load_asset(bp.package_name)
 	mesh_asset = unreal.load_asset(mesh.package_name)
